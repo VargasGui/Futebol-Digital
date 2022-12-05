@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>Países</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="informacoes">
+            <img src="./img/logo01.png" alt="logotipo do site">
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./cadastro.html"><img src="./img/seta-esquerda.gif" alt="voltar"></a>
+
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./img/editar.gif" alt="editar">
+                </li>
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./paises.html" id="btnAlerta" value="Salvar"><img src="./img/salve-.gif" alt="salvar"></a>
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./img/cesto-de-lixo.gif" alt="excluir">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div  class="informacao selecionado" id="informacao-minhas-redes">
+                    <form>
+                        <fieldset class="container space-around column">
+                            <legend>Países:</legend>
+                            <div class="label">
+                                <label for="campeonato">Nome do país:</label>
+                                <input type="text" id="campeonato" placeholder="Nome do país" class="item texto">
+                            </div>
+                            <div class="label">
+                                <label for="paises">Selecione o país:</label>                               
+                                <select name="paises" class="item lista">
+                                    <option selected disabled value="">Selecione</option>
+                                    <option value="Alemanha">Alemanha</option>
+                                    <option value="Brasil">Brasil</option>
+                                    <option value="Espanha">Espanha</option>
+                                    <option value="França">França</option>
+                                    <option value="Itália">Itália</option>
+                                </select>
+                            </div>
+                            <div class="label-checkbox">
+                                <fieldset class="container-checkbox">
+                                    <legend>Campeonatos no Brasil</legend>
+                                    <input class="checkbox" type="checkbox" name="brasileirao" id="brasileirao-campeonatos">
+                                    <label for="brasileirao">Brasileirão</label>
+                                </fieldset>
+                                <fieldset class="container-checkbox">
+                                    <legend>Campeonato na Alemanha</legend>
+                                    <input class="checkbox" type="checkbox" name="bundesliga" id="bundesliga-campeonatos">
+                                    <label for="bundesliga">Bundesliga</label>
+                                </fieldset>
+                                <fieldset class="container-checkbox">
+                                    <legend>Campeonato na Espanha</legend>
+                                    <input class="checkbox" type="checkbox" name="la-liga" id="la-liga-campeonatos">
+                                    <label for="la-liga">La Liga</label>
+                                </fieldset>
+                                <fieldset class="container-checkbox">
+                                    <legend>Campeonato na França</legend>
+                                    <input class="checkbox" type="checkbox" name="ligue1" id="ligue1-campeonatos">
+                                    <label for="ligue1">Ligue 1</label>
+                                </fieldset>
+                            </div>
+                        </fieldset> 
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/validacoes.js"></script>
+
+</body>
+</html>
+

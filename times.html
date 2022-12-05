@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>Times</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="informacoes">
+            <img src="./img/logo01.png" alt="foto de perfil">
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./cadastro.html"><img src="./img/seta-esquerda.gif" alt="voltar"></a>
+
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./img/editar.gif" alt="editar">
+                </li>
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./timess.html" id="btnAlerta" value="Salvar"><img src="./img/salve-.gif" alt="salvar"></a>
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./img/cesto-de-lixo.gif" alt="excluir">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div  class="informacao selecionado" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Times</h3>
+                        <div class="container space-around column">
+                            <input type="text" class="item texto">
+                            <select name="paises" class="item lista">
+                                <option selected disabled value="">Selecione</option>
+                                <option value="Bayern">Bayern</option>
+                                <option value="Inter">Inter</option>
+                                <option value="Palmeiras">Palmeiras</option>
+                                <option value="PSG">PSG</option>
+                                <option value="Real Madrid">Real Madrid</option>
+                            </select>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/validacoes.js"></script>
+
+</body>
+</html>

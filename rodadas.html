@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>Rodadas</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="informacoes">
+            <img src="./img/logo01.png" alt="foto de perfil">
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./cadastro.html"><img src="./img/seta-esquerda.gif" alt="voltar"></a>
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./img/editar.gif" alt="editar">
+                </li>
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./rodadas.html" id="btnAlerta" value="Salvar"><img src="./img/salve-.gif" alt="salvar"></a>
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./img/cesto-de-lixo.gif" alt="excluir">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div  class="informacao selecionado" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Rodadas</h3>
+                        <div class="container space-around column">
+                            <input type="text" class="item texto">
+                            <select name="fases" class="item lista">
+                                <option selected disabled value="">Selecione</option>
+                                <option value="Rodada 01">Rodada 01</option>
+                                <option value="Rodada 02">Rodada 02</option>
+                                <option value="Rodada 03">Rodada 03</option>
+                                <option value="Rodada 04">Rodada 04</option>
+                                <option value="Rodada 05">Rodada 05</option>
+                            </select>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/validacoes.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,346 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(10, 9, 9); 
+    color: white;
+}
+#logo{
+	margin-left:150px ;
+	height: 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+#cabecario{
+    border-bottom: 1px solid grey;
+ text-align: right;
+ color: white;
+ height: 80px;
+}
+#cabecario ul li a{
+    color: white;  
+}
+#cabecario ul li a:hover{
+    color: rgb(255, 255, 0);
+    transition: 0.5s;
+    opacity: 1;
+}
+#cabecario1{
+    display: inline-block;
+}
+main{
+    padding: 0 150px 0 150px;
+}
+
+p img{
+
+    float: left;
+    width: 120px;
+    height: 80px;
+    padding: 10px 5px 10px 50px;
+}
+
+header ul{
+    margin-right: -25px;
+}
+
+header ul li{
+    padding: 0 25px 0 0px;
+    font-size: 25px;
+    font-style: normal;
+    display: inline-block;
+}
+
+a{
+    color: white;
+   text-decoration: none;
+}
+div#bemvindo{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: gray;
+    
+}
+div#noticias-copa, div#noticias-brasileirao{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border: 10px ridge rgba(255, 217, 0, 0.644);
+    
+}
+h1 img{
+    vertical-align: middle;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: black;
+	color: white;
+	padding: 16px;
+	font-size: 25px;
+	border: none;
+	
+	
+  }
+  .dropdown-content a:hover{
+	color: gold;
+	transition: 0.5s;
+	opacity: 1;
+	
+  }
+ 
+ 
+  button a:hover{
+	color: gold; 
+	transition: 0.5s;	
+	opacity: 1;
+	
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	text-align: left;
+	position: relative;
+	display: inline-block;
+	
+	margin-right: 150px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 170px;
+	box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	
+	
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	z-index: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: black; color: gold;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block; z-index: 1;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: black;}
+
+*{box-sizing: border-box; -webkit-box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font: 16px/1.3 sans-serif; }
+
+.site-footer
+{
+  background-color:#000000;
+  padding:35px 150px 20px 150px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+
+}
+.site-footer hr
+{
+	
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:rgba(255, 217, 0, 0.644);
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:rgba(255, 217, 0, 0.644);
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:rgba(255, 217, 0, 0.644)
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+@media screen and (max-width: 700px){
+    li#zequinha{
+      display: none;
+    }
+    body{
+      background-color: rgb(10, 9, 9);
+    }
+    #logo{
+      margin-left:0 ;
+      height: 15px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    #cabecario{
+      border-bottom: 1px solid grey;
+     text-align: right;
+     color: white;
+     height: 80px;
+    }
+    #cabecario ul li a{
+        color: white;  
+    }
+    #cabecario ul li a:hover{
+        color: rgb(255, 255, 0);
+        transition: 0.5s;
+        opacity: 1;
+    }
+    #cabecario1{
+        display: inline-block;
+    }
+    main{
+      padding: 0 50px 0 50px;
+  }
+  header ul{
+    margin-right: 0;
+}
+
+header ul li{
+    padding: 10px;
+    font-size: 22px;
+    font-style: normal;
+    display: inline-block;
+    
+}
+/* Dropdown Button */
+.dropbtn {
+	background-color: rgb(10, 9, 9);
+	color: white;
+	padding: 0;
+	font-size: 22px;
+	border: none;
+  }
+  .dropdown {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 75px;
+    margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+

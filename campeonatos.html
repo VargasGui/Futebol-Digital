@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>Campeonatos</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="informacoes">
+            <img src="./img/logo01.png" alt="foto de perfil">
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./cadastro.html"><img src="./img/seta-esquerda.gif" alt="voltar"></a>
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <a href="#" value="Editar" onclick="return Editar()"></a><img src="./img/editar.gif" alt="editar"></a>
+                </li>
+                <li class="aba selecionado" id="sobre-mim">
+                    <a href="./campeonatos.html" id="btnAlerta" value="Salvar"><img src="./img/salve-.gif" alt="salvar"></a>
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <a href="#" value="Excluir" onclick="return Excluir()"></a><img src="./img/cesto-de-lixo.gif" alt="excluir"></a>
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div  class="informacao selecionado" id="informacao-minhas-redes">
+                        <form>
+                            <fieldset class="container space-around column">
+                                <legend>Campeonatos:</legend>
+                                <div class="label">
+                                    <label for="campeonato">Nome do campeonato:</label>
+                                    <input type="text" id="campeonato" placeholder="Nome do campeonato" class="item texto">
+                                </div>
+                                <div class="label">
+                                    <label for="campeonatos">Selecione o campeonato:</label>                               
+                                    <select name="campeonatos" class="item lista">
+                                        <option selected disabled value="">Selecione</option>
+                                        <option value="Brasileirão">Brasileirão</option>
+                                        <option value="Bundesliga">Bundesliga</option>
+                                        <option value="La Liga">La Liga</option>
+                                        <option value="Ligue 1">Ligue 1</option>
+                                        <option value="Série A">Série A</option>
+                                    </select>
+                                </div>
+                                <div class="label-checkbox">
+                                    <fieldset class="container-checkbox">
+                                        <legend>Times do Brasileirão</legend>
+                                        <input class="checkbox" type="checkbox" name="corinthians" id="corinthians-times">
+                                        <label for="corinthians">Corinthians</label>
+                                        <input class="checkbox" type="checkbox" name="palmeiras" id="palmeiras-times">
+                                        <label for="palmeiras">Palmeiras</label>
+                                        <input class="checkbox" type="checkbox" name="santos" id="santos-times">
+                                        <label for="santos">Santos</label>
+                                        <input class="checkbox" type="checkbox" name="sao-paulo" id="sao-paulo-times">
+                                        <label for="sao-paulo">São Paulo</label>
+                                    </fieldset>
+                                    <fieldset class="container-checkbox">
+                                        <legend>Times da Bundesliga</legend>
+                                        <input class="checkbox" type="checkbox" name="bayer-leverkusen" id="bayer-leverkusen-times">
+                                        <label for="bayer-leverkusen">Bayer Leverkusen</label>
+                                        <input class="checkbox" type="checkbox" name="bayern-de-munique" id="bayern-de-munique-times">
+                                        <label for="bayern-de-munique">Bayern de Munique</label>
+                                    </fieldset>
+                                    <fieldset class="container-checkbox">
+                                        <legend>La Liga</legend>
+                                        <input class="checkbox" type="checkbox" name="barcelona" id="barcelona-times">
+                                        <label for="barcelona">Barcelona</label>
+                                        <input class="checkbox" type="checkbox" name="real-madrid" id="real-madrid-times">
+                                        <label for="real-madrid">Real Madrid</label>
+                                    </fieldset>
+                                    <fieldset class="container-checkbox">
+                                        <legend>Ligue 1</legend>
+                                        <input class="checkbox" type="checkbox" name="paris-saint-germain" id="paris-saint-germain-times">
+                                        <label for="paris-saint-germain">Paris Saint Germain</label>  
+                                    </fieldset>
+                                    <fieldset class="container-checkbox">
+                                        <legend>Série A</legend>
+                                        <input class="checkbox" type="checkbox" name="inter-de-milao" id="inter-de-milao-times">
+                                        <label for="inter-de-milao">Inter de Milão</label>
+                                        <input class="checkbox" type="checkbox" name="juventus" id="juventus-times">
+                                        <label for="juventus">Juventus</label>
+                                        <input class="checkbox" type="checkbox" name="milan" id="milan-times">
+                                        <label for="milan">Milan</label>
+                                    </fieldset>
+                                </div>
+                            </fieldset> 
+                        </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/validacoes.js"></script>
+
+</body>
+</html>
